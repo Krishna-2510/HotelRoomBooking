@@ -1,0 +1,82 @@
+#outbox{
+    background: url(hotelbg.jpg);
+    background-size: cover;
+    padding: 100px 20px;
+}
+#main{
+    /* border: 2px solid; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    color: white;
+    background-color: rgba(7, 7, 7, 0.781);
+}
+input{
+    margin: 7px;
+    text-align: center;
+    width: 400px;
+    font-size:15px;
+    height: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
+#searchresult{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+.row h3,.row p{
+    margin: 10px 5px;
+}
+
+#cardbound{
+    border: 2px solid black;
+    width: 360px;
+    background-color: rgba(0, 0, 0, 0.884);
+    margin: 10px;
+    color: white;
+}
+
+#results{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items:center;
+}
+nav{
+    box-shadow: 0px 5px 5px rgb(82 82 82 / 11%);
+    height: 48px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+button{
+    width: 200px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 20px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(63, 63, 63);
+}

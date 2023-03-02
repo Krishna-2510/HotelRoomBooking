@@ -1,0 +1,19 @@
+h1{
+  text-align: center;
+}
+#box{
+  text-align: center;
+  border: 2px solid black;
+}
+#maincontent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+button{
+  width: 200px;
+  text-align: center;
+  margin: 20px;
+}
